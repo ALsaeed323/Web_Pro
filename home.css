@@ -40,9 +40,13 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.btn-black{
+.btn-yellow{
   font-size: 1.2rem;
   color: var(--mainBlack);
-  background: var(--mainBlack);
+  background: var(--mainYellow);
   text-transform: capitalize;
+}
+.btn-yellow:hover{
+  background: var(--mainBlack);
+  color: var(--mainYellow);
 }
