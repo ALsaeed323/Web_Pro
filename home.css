@@ -40,3 +40,9 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.btn-black{
+  font-size: 1.2rem;
+  color: var(--mainBlack);
+  background: var(--mainBlack);
+  text-transform: capitalize;
+}
