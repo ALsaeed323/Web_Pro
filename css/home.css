@@ -34,7 +34,7 @@
   }
   .banner{
     min-height: calc(100vh - 101px);
-    background: url(image/lap1.jpeg);
+    background: url(../image/lap1.jpeg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,11 +42,11 @@
 }
 .btn-yellow{
   font-size: 1.2rem;
-  color: var(--mainBlack);
-  background: var(--mainYellow);
+  color:black ;
+  background:#00050a ;
   text-transform: capitalize;
 }
 .btn-yellow:hover{
-  background: var(--mainBlack);
-  color: var(--mainYellow);
+  background:#4ac9fc;
+  color:#fdbe02;
 }
