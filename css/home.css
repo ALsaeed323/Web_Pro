@@ -72,11 +72,11 @@
 }
 
 .text-slanted {
-  font-family: "Calligraffitti", cursive;
+  font-family: "Calligraffitti";
   color: white;
 }
 .text-lowercase {
-  font-family: "Calligraffitti", cursive;
+  font-family: "Calligraffitti";
   text-transform: lowercase!important;
   color: white;
 }
@@ -91,11 +91,11 @@
 }
 .text-uppercase
 {
-  font-family: "Calligraffitti", cursive;
+  font-family: "Calligraffitti";
 }
 .text-muted
 {
-  font-family: "Calligraffitti", cursive;
+  font-family: "Calligraffitti";
 }
 .categorie-link{
   color: var(--mainBlack);
