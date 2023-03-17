@@ -110,3 +110,12 @@
   width: 5rem;
   background: var(--mainYellow);
 }
+.category-container{
+  position: relative;
+}
+.category-img{
+  transition: all 1s linear;
+}
+.category-container:hover .category-img{
+  opacity: 0.5;
+}
