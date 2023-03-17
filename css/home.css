@@ -160,3 +160,6 @@
   position: relative;
   overflow: hidden;
 }
+.old-price{
+  text-decoration: line-through;
+}
