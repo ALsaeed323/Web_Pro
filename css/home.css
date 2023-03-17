@@ -97,3 +97,16 @@
 {
   font-family: "Calligraffitti", cursive;
 }
+.categorie-link{
+  color: var(--mainBlack);
+  text-decoration: none;
+}
+.categorie-link:hover{
+  color: var(--mainGrey);
+  text-decoration: none;
+}
+.categorie-underline{
+  height: 0.1rem;
+  width: 5rem;
+  background: var(--mainYellow);
+}
