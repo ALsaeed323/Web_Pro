@@ -193,3 +193,6 @@
 .featured-store-link:hover{
   color: var(--mainBlack);
 }
+.featured-container:hover .featured-store-link{
+  transform: translateX(0%);
+}
