@@ -178,3 +178,14 @@
 .featured-container:hover .featured-search-icon{
   transform: translateX(0%);
 }
+.featured-store-link{
+  background: var(--mainYellow);
+  color: var(--mainBlack);
+  position: absolute;
+  top: 70%;
+  right: 0%;
+  padding: 0.2rem 0.4rem;
+  transition: all 1s ease-in-out;
+  transform: translateX(110%);
+  cursor: pointer;
+}
