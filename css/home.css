@@ -187,5 +187,9 @@
   padding: 0.2rem 0.4rem;
   transition: all 1s ease-in-out;
   transform: translateX(110%);
-  cursor: pointer;
+  cursor: pointer; /* sets the mouse cursor to a pointer and indicates a link. 
+  This is used to inform users of the mouse operations that can be performed at the current location */
+} 
+.featured-store-link:hover{
+  color: var(--mainBlack);
 }
