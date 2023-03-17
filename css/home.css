@@ -175,3 +175,6 @@
   transition: all 1s ease-in-out;
   cursor: pointer;
 }
+.featured-container:hover .featured-search-icon{
+  transform: translateX(0%);
+}
