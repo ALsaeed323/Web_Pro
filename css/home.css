@@ -139,3 +139,6 @@
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/home-filler.jpeg) center/cover fixed no-repeat;
   min-height: 60vh;
 }
+.collection-link{
+  text-decoration: none;
+}
