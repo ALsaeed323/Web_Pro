@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Calligraffitti|Mali");
+:root {
+  --mainYellow: #fdbe02;
+  --mainWhite: #fff;
+  --mainBlack: #071013;
+  --mainGrey: #9b9999;
+  --TransGrey: rgba(0, 0, 0, 0.1);
+}
 .site-header {
     background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -42,11 +49,51 @@
 }
 .btn-yellow{
   font-size: 1.2rem;
-  color:black ;
-  background:#00050a ;
+  color: var(--mainBlack);
+  background: var(--mainYellow);
   text-transform: capitalize;
 }
 .btn-yellow:hover{
-  background:#4ac9fc;
-  color:#fdbe02;
+  background: var(--mainBlack);
+  color: var(--mainYellow);
+}
+.btn-black{
+  color: var(--mainBlack);
+  background: transparent !important;
+  font-size: 1.2rem;
+  border: 0.1rem solid var(--mainBlack);
+}
+.btn-black:hover{
+  color: var(--mainWhite);
+  background: var(--mainBlack) !important;
+}
+.text-yellow{
+  color: var(--mainYellow);
+}
+
+.text-slanted {
+  font-family: "Calligraffitti", cursive;
+  color: white;
+}
+.text-lowercase {
+  font-family: "Calligraffitti", cursive;
+  text-transform: lowercase!important;
+  color: white;
+}
+.service-icon{
+  font-size: 2rem;
+  background: var(--mainGrey);
+  color: var(--mainYellow);
+  margin-bottom: 1rem;
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  border-radius: 50%;
+}
+.text-uppercase
+{
+  font-family: "Calligraffitti", cursive;
+}
+.text-muted
+{
+  font-family: "Calligraffitti", cursive;
 }
