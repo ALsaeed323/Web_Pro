@@ -119,3 +119,19 @@
 .category-container:hover .category-img{
   opacity: 0.5;
 }
+.category-link{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--mainWhite);
+  color: var(--mainBlack);
+  padding: 0.2rem 3rem 0.2rem 0.2rem;
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+  text-decoration: none;
+  transition: all 1s linear;
+  opacity: 0;
+}
+.category-container:hover .category-link{
+  opacity: 1;
+  text-decoration: none;
+}
