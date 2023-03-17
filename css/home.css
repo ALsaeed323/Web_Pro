@@ -135,3 +135,7 @@
   opacity: 1;
   text-decoration: none;
 }
+.phone-filler{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/home-filler.jpeg) center/cover fixed no-repeat;
+  min-height: 60vh;
+}
