@@ -142,3 +142,13 @@
 .collection-link{
   text-decoration: none;
 }
+.collection-link:hover{
+  text-decoration: none;
+  color: var(--mainGrey);
+}
+.collection-underline{
+  background: var(--mainYellow);
+  height: 0.1rem;
+  width: 5rem;
+  margin: 0 auto;
+}
