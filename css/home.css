@@ -155,3 +155,8 @@
 .text-capitalize{
   font-family: "Calligraffitti";
 }
+.featured-container{
+  background: var(--TransGrey);
+  position: relative;
+  overflow: hidden;
+}
