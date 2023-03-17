@@ -136,7 +136,7 @@
   text-decoration: none;
 }
 .phone-filler{
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/home-filler.jpeg) center/cover fixed no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../image/phone1.jpg) center/cover fixed no-repeat;
   min-height: 60vh;
 }
 .collection-link{
@@ -151,4 +151,7 @@
   height: 0.1rem;
   width: 5rem;
   margin: 0 auto;
+}
+.text-capitalize{
+  font-family: "Calligraffitti";
 }
