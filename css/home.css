@@ -163,3 +163,15 @@
 .old-price{
   text-decoration: line-through;
 }
+.featured-search-icon{
+  background: var(--mainWhite);
+  position: absolute;
+  padding: 0.2rem 0.4rem;
+  display: inline-block;
+  top: 50%;
+  right: 0%;
+  font-size: 1.2rem;
+  transform: translateX(110%);
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
