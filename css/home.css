@@ -213,3 +213,8 @@
 .footer{
   background: rgba(0, 0, 0, 0.8);
 }
+.footer-title{
+  padding: 0.4rem;
+  border: 0.2rem solid var(--mainYellow);
+}
+
