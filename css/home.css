@@ -203,3 +203,7 @@
 .skills{
   background: var(--mainBlack);
 }
+.skill-icon{
+  color: var(--mainYellow);
+  font-size: 2rem;
+}
