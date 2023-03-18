@@ -95,7 +95,7 @@
 }
 .text-uppercase
 {
-  font-family: "Calligraffitti";
+  font-family: " Mali, cursive";
 }
 .text-muted
 {
@@ -157,7 +157,7 @@
   margin: 0 auto;
 }
 .text-capitalize{
-  font-family: "Calligraffitti";
+  font-family: " Mali, cursive";
 }
 .featured-container{
   background: var(--TransGrey);
