@@ -6,6 +6,10 @@
   --mainGrey: #9b9999;
   --TransGrey: rgba(0, 0, 0, 0.1);
 }
+ body {
+  max-width: 100%;
+  overflow-x: hidden;
+  }
 .site-header {
     background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
