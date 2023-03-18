@@ -217,4 +217,13 @@
   padding: 0.4rem;
   border: 0.2rem solid var(--mainYellow);
 }
+.footer-title{
+  padding: 0.4rem;
+  border: 0.2rem solid var(--mainYellow);
+}
+.footer-icon{
+  color: var(--mainYellow);
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
 
+}
