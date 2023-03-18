@@ -200,3 +200,6 @@
 .featured-container:hover .featured-store-link{
   transform: translateX(0%);
 }
+.skills{
+  background: var(--mainBlack);
+}
