@@ -100,3 +100,15 @@ small {
     overflow: hidden;
 }
 
+.text-muted {
+    color: var(--color-info-dark);
+}
+
+p {
+    color: var(--color-dark-variant);
+}
+
+b {
+    color: var(--color-dark);
+}
+
