@@ -44,5 +44,9 @@
     grid-template-columns: 14rem auto 23rem;
 }
 
+html {
+    font-size: 14px;
+}
+
 
 
