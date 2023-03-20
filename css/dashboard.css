@@ -209,5 +209,11 @@ aside .sidebar a.active span {
     margin-left: calc(1rem - 3px);
 }
 
+aside .sidebar a:hover {
+    color: var(--color-primary);
+}
 
+aside .sidebar a:hover span {
+    margin-left: 1rem;
+}
 
