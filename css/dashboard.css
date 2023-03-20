@@ -127,3 +127,9 @@ b {
 .warning {
     color: var(--color-warning);
 }
+
+
+/* ============ASide======== */
+aside {
+    height: 100vh;
+}
