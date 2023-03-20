@@ -156,7 +156,18 @@ aside .close {
     display: none;
 }
 
+aside .sidebar {
 
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+    top: 3rem;
+}
+
+aside h3 {
+    font-weight: 500;
+}
 
 
 
