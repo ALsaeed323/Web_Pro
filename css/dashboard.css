@@ -24,4 +24,15 @@
     --box-shadow: 0 2rem 3 rem var(--color-light);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
 
