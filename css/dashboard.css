@@ -328,7 +328,7 @@ main .insights .income svg circle {
     stroke-dasharray: 110;
 }
 
-main .insights .progress .number{
+main .insights .progress .number {
     position: absolute;
     top: 0;
     left: 0;
@@ -339,7 +339,47 @@ main .insights .progress .number{
     align-items: center;
 }
 
-main .insights small{
+main .insights small {
     margin-top: 1.3rem;
     display: block;
+}
+
+/* recent orders */
+main .recent-order {
+    margin-top: 2rem;
+}
+
+main .recent-order h2 {
+    margin-bottom: 0.8rem;
+}
+
+main .recent-order table {
+    background: var(--color-white);
+    width: 100%;
+    border-radius: var(--card-border-readius);
+    padding: var(--card-padding);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+main .recent-order table:hover {
+    box-shadow: none;
+}
+
+main table tbody td {
+    height: 2.8rem;
+    border-bottom: 1px solid var(--color-ligth);
+    color: var(--color-dark-variant);
+}
+
+main table tbody tr:last-child td {
+    border: none;
+}
+
+main .recent-order a {
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--color-primary);
 }
