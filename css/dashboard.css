@@ -327,3 +327,19 @@ main .insights .income svg circle {
     stroke-dashoffset: 35;
     stroke-dasharray: 110;
 }
+
+main .insights .progress .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .insights small{
+    margin-top: 1.3rem;
+    display: block;
+}
