@@ -290,3 +290,11 @@ main .insights h3 {
     margin: 1rem 0 0.6rem;
     font-size: 1rem;
 }
+
+
+main .insights .progress {
+    position: relative;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
