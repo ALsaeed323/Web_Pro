@@ -12,3 +12,6 @@ closeBtn.addEventListener('click',()=> {
     sideMenu.style.display ='none';
 })
 
+themeToggler.addEventListener('click',()=> {
+  document.body.classList.toggle('dark-theme-variables');
+})
