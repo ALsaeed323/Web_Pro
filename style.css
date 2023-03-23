@@ -1,4 +1,3 @@
-/* Import Google font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
@@ -13,7 +12,7 @@
   backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
-  color: #8e8e8e;
+  color: #000   ;
   transition: color .15s ease-in-out;
 }
 .site-header a:hover {
@@ -34,7 +33,7 @@ body {
   width: 450px;
   border-radius: 12px;
   padding: 20px 30px 120px;
-  background: #4070f4;
+  background: rgba(0, 0, 0, .85);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   justify-content: center;
@@ -58,7 +57,7 @@ body {
 .wrapper.active .form.login {
   bottom: -15%;
   border-radius: 35%;
-  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -5px 10px #000;
 }
 
 .form header {
@@ -70,7 +69,7 @@ body {
 }
 
 .form.login header {
-  color: #333;
+  color: #000;
   opacity: 0.6;
 }
 
@@ -96,7 +95,7 @@ form input {
   padding: 0 15px;
   font-size: 16px;
   font-weight: 400;
-  color: #333;
+  color: #000;
   border-radius: 8px;
   background: #fff;
 }
@@ -128,7 +127,7 @@ form .checkbox label {
 }
 
 form a {
-  color: #333;
+  color: #000;
   text-decoration: none;
 }
 
@@ -145,7 +144,7 @@ form input[type="submit"] {
 }
 
 .form.login input[type="submit"] {
-  background: #4070f4;
+  background: #000;
   color: #fff;
   border: none;
 }
