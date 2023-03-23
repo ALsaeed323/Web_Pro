@@ -291,10 +291,39 @@ main .insights h3 {
     font-size: 1rem;
 }
 
-
 main .insights .progress {
     position: relative;
     width: 92px;
     height: 92px;
     border-radius: 50%;
+}
+
+main .insights svg {
+    width: 7rem;
+    height: 7rem;
+}
+
+main .insights svg circle {
+    fill: none;
+    stroke: var(--color-primary);
+    stroke-width: 14;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 110;
+    stroke-dashoffset: 92;
+}
+
+main .insights .sales svg circle {
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .insights .expenses svg circle {
+    stroke-dashoffset: 20;
+    stroke-dasharray: 80;
+}
+
+main .insights .income svg circle {
+    stroke-dashoffset: 35;
+    stroke-dasharray: 110;
 }
