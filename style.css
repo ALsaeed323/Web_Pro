@@ -6,6 +6,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.errordiv {
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 .site-header {
   background-color: rgba(0, 0, 0, .85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
