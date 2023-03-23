@@ -268,3 +268,7 @@ main .insights>div span {
     color: var(--color-white);
     font-size: 2rem;
 }
+
+main .insights>div.expenses span {
+    background: var(--color-danger);
+}
