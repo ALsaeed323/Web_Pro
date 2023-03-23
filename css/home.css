@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Calligraffitti|Mali");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 :root {
   --mainYellow: #fdbe02;
   --mainWhite: #fff;
@@ -9,6 +11,7 @@
  body {
   max-width: 100%;
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
   }
 .site-header {
     background-color: rgba(0, 0, 0, .85);
@@ -22,6 +25,10 @@
   .site-header a:hover {
     color: #fff;
     text-decoration: none;
+  }
+  nav {
+    padding: 0.5rem;
+
   }
   .nav-scroller {
     position: relative;
