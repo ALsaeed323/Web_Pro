@@ -7,10 +7,22 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
 body {
   min-height: 100vh;
-  display: flex;
+  
   align-items: center;
   justify-content: center;
   background: #fff;
@@ -25,6 +37,9 @@ body {
   background: #4070f4;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .form.login {
