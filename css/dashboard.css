@@ -39,7 +39,7 @@
     display: grid;
     width: 96%;
     margin: 0 auto;
-   
+
     gap: 1.8rem;
     grid-template-columns: 14rem auto 23rem;
 }
@@ -224,6 +224,7 @@ aside .sidebar .message-count {
     font-size: 11px;
     border-radius: var(--border-radius-1);
 }
+
 /* =====================MAIN==================== */
 
 main {
@@ -242,6 +243,7 @@ main .date input[type="date"] {
     background: transparent;
     color: var(--color-dark);
 }
+
 main .insights {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -272,6 +274,13 @@ main .insights>div span {
 main .insights>div.expenses span {
     background: var(--color-danger);
 }
+
 main .insights>div.income span {
     background: var(--color-success);
+}
+
+main .insights>div .middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
