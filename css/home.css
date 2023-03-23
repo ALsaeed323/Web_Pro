@@ -8,6 +8,20 @@
   --mainGrey: #9b9999;
   --TransGrey: rgba(0, 0, 0, 0.1);
 }
+.card {
+  border: none;
+  border-radius: 0;
+}
+nav {
+  margin-bottom: 10px;
+}
+.card-img-top {
+width: auto;
+height: auto;
+max-width: 220px;
+max-width: 220px;
+object-fit: cover;
+}
  body {
   max-width: 100%;
   overflow-x: hidden;
