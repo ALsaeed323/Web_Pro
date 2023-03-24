@@ -1,0 +1,8 @@
+:root{
+    --color-danger:#ff7782;
+}
+
+
+.danger {
+    color: var(--color-danger);
+}
