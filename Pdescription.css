@@ -20,3 +20,10 @@
     color: black;
     /* padding-top: -300px; */
 }
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
