@@ -137,3 +137,76 @@ body {
 th{
     font-weight: bold;
 }
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+  position: absolute;
+  top: 90%;
+  left: 60%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	/* box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1); */
+	overflow: hidden;
+  /* background: #fff; */
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.containerplus {
+	display: flex;
+	border: 4px solid #404040;
+	background-color: blue;
+	border-radius: 10rem;
+	width: 40%;
+	padding: 0.3rem;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+.col-1 {
+	width: 45%;
+}
+
+.col-2 {
+	width: 25%;
+}
+
+.col > button, .number {
+	width: 100%;
+	background: blue;
+	border: 0px;
+	text-align: center;
+  margin-left: 0.2rem;
+
+}
+
+.button {
+	font-family: sans-serif;
+	font-size: 2em;
+  margin-bottom: 0.6rem;
+
+}
+
+button {
+	color: black;
+	user-select: none;
+	outline: none;
+}
