@@ -210,3 +210,38 @@ button {
 	user-select: none;
 	outline: none;
 }
+.addToCartFrame{
+    border-radius: 2rem;
+    color: black;
+    overflow: hidden;
+    border: 3rem black;
+  }
+  /* .addToCartInnerFrame{
+    display: flex;
+      border: 4px solid #404040;
+      background-color: yellow;
+      border-radius: 1rem;
+      width: 10%;
+      padding: 1rem;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+  } */
+  .addToCartButton{
+    position: absolute;
+    /* right: 30%; */
+    top: 87%;
+    text-align: center;
+    outline: none;
+    left: 70%;
+    display: block;
+    width: 10%;
+    /* margin: 0%; */
+    font-size: 0.8rem;
+    font-weight: 500;
+    min-height: 35px;
+    padding: 1rem;
+    background: yellow;
+    border-radius: 1rem;
+    
+  }
