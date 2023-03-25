@@ -129,3 +129,11 @@ body {
 .maindes{
   margin-left: 700px;
 }
+#specs{
+    margin-left: 700px;
+    width: 15%;
+    height: 200px;
+}
+th{
+    font-weight: bold;
+}
