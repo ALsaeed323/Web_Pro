@@ -120,3 +120,12 @@ body {
   .demo:hover {
     opacity: 1;
   }
+  .productName{
+    /* text-align: center; */
+    
+    font-weight: bold;
+    font-size: large;
+}
+.maindes{
+  margin-left: 700px;
+}
